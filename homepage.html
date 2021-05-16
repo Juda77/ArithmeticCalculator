@@ -1,0 +1,79 @@
+<!-- /*
+* Name: Juda Fernandez
+* Date: April 15, 2021
+* Section: CSE 154 AM - Fadel
+*
+* This is the "homepage" html file for my website. This means that it
+will provide the structure for the page that user's will be shown first(kind
+of like the Google homepage). The content on this page will simply just
+provide an introduction to the user, giving information about what my
+math website is about. There will be no actual math content on this page,
+aside from the arithmetic calculator.
+*/ -->
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <script src="homepage.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="homepage-styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Homepage of my Math Website</title>
+  </head>
+
+  <body>
+
+    <main>
+
+      <header><h1>History of Mathematics</h1></header> <!--I want to center this-->
+
+      <section>
+        <header><h2>Welcome to my math website!</h2></header>
+
+        <p>
+          This website will have some cool information about various math topics, such
+          as the history of math, calculus, and linear algebra. Please note that this
+          website, although it is informative, is not meant to serve as a sort of
+          Wikipedia or comprehensive encyclopedia for these math topics. This website, first
+          and foremost, is just a place for me to share and write about some cool topics in math,
+          and to practice my web development and general written communication skills.
+
+          With that said, welcome to my website, and I hope you learn something cool!
+        </p>
+
+      </section>
+
+    </main>
+    <section id="arithmetic-calculator-section">
+      <header><h2>Basic Arithmetic and Fraction Calculator</h2></header>
+      <p>
+        Here is a basic arithetic calculator to get you started. In addition to whole
+        numbers, it can also take fractions as input.
+        Here are some sample inputs:
+      </p>
+      <ul>
+        <li>1 + 1 - 3 * 2</li>
+        <li>1/2 + 1/2 * 0</li>
+        <li>2 / (1/3 + 5)</li>
+      </ul>
+
+      <label for="expression">Type your expression here</label>
+      <input type="text" placeholder="1 + 1 * 1/2" id="expression">
+      <button id="do-arithmetic-button">Do arithmetic!</button>
+      <span>The results will be logged down below</span>
+      <aside id="calculator-credits">
+        Credits: I coded the calculator myself, but the algorithm I used
+        (<a href="https://en.wikipedia.org/wiki/Shunting-yard_algorithm"
+        target="_blank">Shunting-yard</a>)
+        , was invented by Edsger Dijkstra.
+        BTW, please feel free to let me know if there are any bugs!
+      </aside>
+      <header class="log">Log:</header>
+
+    </section>
+  </body>
+
+</html>
