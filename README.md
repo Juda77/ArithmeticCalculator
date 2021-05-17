@@ -1,5 +1,5 @@
 # Arithmetic Calculator
-Computes basic mathematical expressions. Incorporates PEMDAS and parentheses.
+Client-side JS program which computes basic mathematical expressions. Incorporates PEMDAS and parentheses.
 
 <h2>Shout out to Edsger Dijkstra!</h2>
 The calculator uses Edsger Dijkstra's shunting-yard algorithm(not to be confused with Dijkstra's famous shortest paths algorithm)
